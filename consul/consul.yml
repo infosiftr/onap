@@ -1,0 +1,11 @@
+image: infosiftronap/consul:latest
+manifests:
+  - image: infosiftronap/consul:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/consul:amd64
+    platform:
+      os: linux
+      architecture: amd64
