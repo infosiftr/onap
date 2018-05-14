@@ -1,0 +1,9 @@
+[submodule "elk/upstream-elasticsearch"]
+	path = elk/upstream-elasticsearch
+	url = https://github.com/elastic/elasticsearch-docker.git
+[submodule "elk/upstream-logstash"]
+	path = elk/upstream-logstash
+	url = https://github.com/elastic/logstash-docker.git
+[submodule "elk/upstream-kibana"]
+	path = elk/upstream-kibana
+	url = https://github.com/elastic/kibana-docker.git

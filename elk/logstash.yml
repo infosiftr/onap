@@ -1,0 +1,11 @@
+image: infosiftronap/logstash:latest
+manifests:
+  - image: infosiftronap/logstash:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/logstash:amd64
+    platform:
+      os: linux
+      architecture: amd64

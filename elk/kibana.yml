@@ -1,0 +1,11 @@
+image: infosiftronap/kibana:latest
+manifests:
+  - image: infosiftronap/kibana:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/kibana:amd64
+    platform:
+      os: linux
+      architecture: amd64
