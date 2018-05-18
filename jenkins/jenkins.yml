@@ -1,0 +1,11 @@
+image: infosiftronap/jenkins:latest
+manifests:
+  - image: infosiftronap/jenkins:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/jenkins:amd64
+    platform:
+      os: linux
+      architecture: amd64
