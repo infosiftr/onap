@@ -1,0 +1,11 @@
+image: infosiftronap/flyway:latest
+manifests:
+  - image: infosiftronap/flyway:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/flyway:amd64
+    platform:
+      os: linux
+      architecture: amd64
