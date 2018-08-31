@@ -1,0 +1,11 @@
+image: infosiftronap/openresty:latest
+manifests:
+  - image: infosiftronap/openresty:arm64
+    platform:
+      os: linux
+      architecture: arm64
+      variant: v8
+  - image: infosiftronap/openresty:amd64
+    platform:
+      os: linux
+      architecture: amd64
